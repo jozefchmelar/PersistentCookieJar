@@ -41,7 +41,7 @@ public class PersistentCookieJar implements ClearableCookieJar {
     @Override
     synchronized public void saveFromResponse(HttpUrl url, List<Cookie> cookies) {
         cache.addAll(cookies);
-        persistor.saveAll(filterPersistentCookies(cookies));
+        persistor.saveAll(cookies);
     }
 
     private static List<Cookie> filterPersistentCookies(List<Cookie> cookies) {
