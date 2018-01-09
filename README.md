@@ -14,9 +14,9 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-    compile 'com.github.jozefchmelar:PersistentCookieJar:v1.0.1'
+    compile 'com.github.jozefchmelar:PersistentCookieJar:v1.0.2'
 }
-`
+```
 License
 
 -------
